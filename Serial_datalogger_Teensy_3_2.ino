@@ -16,7 +16,8 @@
  *          TIMESTAMP: AVR/GSM : STRING
  *LED status:
  *          blinking RED, sd card storing is stopped
- *          blinking Green, sd card is storing data
+ *          blinking BLUE, sd card is storing data
+ *          blinking GREEN, safe to remove sd card(PRESS button).
 */
 #include <Bounce.h>
 #include "SdFile.h"
